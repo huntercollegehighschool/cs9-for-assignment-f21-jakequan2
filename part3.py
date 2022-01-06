@@ -17,5 +17,12 @@ Enter the height: 3
 *******
 
 """
-
 #write your code here 
+
+
+height = int(input("Enter the height: "))
+base = int(input("Enter the base: "))
+
+for t in range(height, 0, -1):
+  print('*'*base)
+  
